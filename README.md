@@ -61,4 +61,31 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"  "
 
 ## Creating Maven Project
 
+Now you will have to make a Maven project.
 
+* Run Intellij IDEA 
+* Click Create New Project
+* Click on Maven on the left hand side. If you followed everything so far Intellij should recognize JDK  automatically. If your JDK is selceted press Next. If not you'll have to click on New... button right to the Project SDK lable. Now find and select bin directory of your JDK and press OK. After that click Next
+* Insert Group Id. It can be whatever you want. Same for the Artifact Id.
+* Click on Next and afther that on Finish
+
+Your project is now created. 
+
+In the bottom next corner you will see a pop up window. You should click on Enable Auto Import.
+
+## Adding dependecies to pom.xml
+
+When your project is done setting up expand project package and open pom.xml file.
+
+To ad dependecies youll have to write <dependecies> </dependecies> . All dependecies must be located between those two statements.
+
+### 1. Adding Selenium dependecy
+To add Selenium dependecy copy this lines according to instructions given before this title.
+
+ <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+ </dependency>
+
+For a different version of [Selenium dependecy](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java) visit the site and pick another version. 
