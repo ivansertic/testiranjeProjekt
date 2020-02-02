@@ -77,7 +77,7 @@ In the bottom next corner you will see a pop up window. You should click on Enab
 
 When your project is done setting up expand project package and open pom.xml file.
 
-To ad dependecies youll have to write <dependecies> </dependecies> . All dependecies must be located between those two statements.
+To add dependecies youll have to write "<"dependecies">" "</"dependecies">" . All dependecies must be located between those two statements.
 
 ### 1. Adding Selenium dependecy
 
@@ -97,3 +97,7 @@ To add [Webdriver Manager dependecy](https://mvnrepository.com/artifact/io.githu
 
 
 ## Adding Maven Surefire Plugin dependecy for a surefire report
+
+To add Maven Surefire Plugin firstly you'll have to make a test class inside of your project. Add a class to src/test/java. Now you'll have to make new file in you project directory called "testng.xm".
+
+It should look like this.
