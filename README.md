@@ -80,12 +80,5 @@ When your project is done setting up expand project package and open pom.xml fil
 To ad dependecies youll have to write <dependecies> </dependecies> . All dependecies must be located between those two statements.
 
 ### 1. Adding Selenium dependecy
-To add Selenium dependecy copy this lines according to instructions given before this title.
 
- <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>3.141.59</version>
- </dependency>
-
-For a different version of [Selenium dependecy](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java) visit the site and pick another version. 
+To add [Selenium dependecy](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java) visit the site and pick a version of dependency. Then copy and add the lines in pom.xml of your project.
