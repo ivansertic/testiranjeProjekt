@@ -101,3 +101,14 @@ To add [Webdriver Manager dependecy](https://mvnrepository.com/artifact/io.githu
 To add Maven Surefire Plugin firstly you'll have to make a test class inside of your project. Add a class to src/test/java. Now you'll have to make new file in you project directory called "testng.xm".
 
 It should look like this.
+
+![alt-text](https://github.com/ivansertic/pictures/blob/master/Capture2.PNG)
+
+In line "class name" you should write class name = "NAME_OF_YOUR_TESTING_CLASS"
+
+Now we can add Surefire Plugin. To add it just follow code given in picture below.
+
+![alt-text](https://github.com/ivansertic/pictures/blob/master/Capture.PNG)
+
+Now we have everything set up so our tests could run and also we can make surefire report from command line.
+
