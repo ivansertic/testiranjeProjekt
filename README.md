@@ -82,3 +82,18 @@ To ad dependecies youll have to write <dependecies> </dependecies> . All depende
 ### 1. Adding Selenium dependecy
 
 To add [Selenium dependecy](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java) visit the site and pick a version of dependency. Then copy and add the lines in pom.xml of your project.
+
+### 2. Adding TestNG dependecy
+
+To add [TestNG dependecy](https://mvnrepository.com/artifact/org.testng/testng) visi the site, pick a version, copy and paste lines inside pom.xml.
+
+### 3. Adding Maven Surefire dependecy
+
+To add [Maven Surefire dependency](https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-api) visi the site, pick a version, copy and paste lines inside pom.xml.
+
+### 4. Adding WebDriver Manager dependecy
+
+To add [Webdriver Manager dependecy](https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager) visi the site, pick a version, copy and paste lines inside pom.xml.
+
+
+## Adding Maven Surefire Plugin dependecy for a surefire report
