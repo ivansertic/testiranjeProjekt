@@ -112,3 +112,12 @@ Now we can add Surefire Plugin. To add it just follow code given in picture belo
 
 Now we have everything set up so our tests could run and also we can make surefire report from command line.
 
+## Using WebDriver Manager
+
+When using web driver manager first we need to define a field for it(e.g. private WebDriver chromeDriver;)
+
+Now we need to configure it, it would be best that the configuration of webdriver is in setup method with @BeforeMethot annotation above it. (e.g. WebDriverManager.chromedriver().setup(); ) Now the driver is setup and whe use the driver by calling methods on chromeDriver.
+
+## Making Surefire report
+
+To make surefire report open CMD. Change directory to the projects directory. Now run command mvn test. After the dests are done the report will be store iside projects drictory (e.g. C:/testiranjeProjekt/target/surefire-report). To see report just open index.html file in browser.
